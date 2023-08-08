@@ -1,0 +1,1219 @@
+@charset "utf-8";
+
+@import url(./reset.css);
+
+$phone: 'screen and (max-width:640px)';
+
+#wrap {
+	width: 1200px;
+	margin: 0 auto;
+	@media #{$phone} {
+		width: 100%;
+		margin: 0 auto;
+	}
+	> header {
+		position: relative;
+		height: 800px;
+		background-color: #5f0080;
+		@media #{$phone} {
+			height: 600px;
+			margin: 0 auto;
+		}
+
+		> h1 {
+			position: absolute;
+			left: 50%;
+			top: 90px;
+			width: 193px;
+			height: 111px;
+			margin-left: -95px;
+			text-align: center;
+			text-indent: -9999px;
+			background-image: url(./../images/logo.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+
+			@media #{$phone} {
+				left: 50%;
+				top: 60px;
+				width: 100px;
+				height: 58px;
+				margin-left: -50px;
+			}
+		} //end of h1
+		> p.hr1 {
+			position: absolute;
+			left: 50%;
+			top: 130px;
+			width: 300px;
+			margin-left: -430px;
+			text-indent: -9999px;
+			border-bottom: 1px solid #fff;
+
+			@media #{$phone} {
+				left: 50%;
+				top: 75px;
+				width: 130px;
+				margin-left: -200px;
+			}
+		}
+		> p.hr2 {
+			position: absolute;
+			left: 50%;
+			top: 130px;
+			width: 300px;
+			margin-left: 130px;
+			text-indent: -9999px;
+			border-bottom: 1px solid #fff;
+
+			@media #{$phone} {
+				left: 50%;
+				top: 75px;
+				width: 130px;
+				margin-left: 65px;
+			}
+		}
+		> h2 {
+			position: absolute;
+			left: 50%;
+			top: 230px;
+			margin-left: -200px;
+			color: #fff;
+			font-weight: 800;
+
+			@media #{$phone} {
+				top: 140px;
+				margin-left: -155px;
+				font-size: 15px;
+			}
+		} //end of h2
+		> h3 {
+			position: absolute;
+			left: 50%;
+			top: 270px;
+			margin-left: -330px;
+			color: #fff;
+			font-weight: 800;
+			font-size: 55px;
+
+			@media #{$phone} {
+				top: 165px;
+				margin-left: -175px;
+				font-size: 30px;
+			}
+		} //end of h3
+		> p.phone {
+			position: absolute;
+			left: 50%;
+			top: 352px;
+			width: 365px;
+			height: 448px;
+			margin-left: -190px;
+			text-indent: -9999px;
+			background-image: url(./../images/maket-phone.png);
+
+			@media #{$phone} {
+				top: 269px;
+				width: 270px;
+				height: 331px;
+				margin-left: -130px;
+				background-size: contain;
+			}
+		}
+	} //end of header
+
+	> section.benefit1 {
+		position: relative;
+		height: 1000px;
+		@media #{$phone} {
+			padding-bottom: 90px;
+		}
+		> h2 {
+			position: absolute;
+			left: 50%;
+			top: 60px;
+			width: 104px;
+			height: 50px;
+			margin-left: -55px;
+			text-indent: -9999px;
+			background-image: url(./../images/nom-1.png);
+		}
+		> .gift {
+			position: absolute;
+			left: 50%;
+			top: 180px;
+			margin-left: -120px;
+			color: #5f0080;
+			font-size: 40px;
+			font-weight: 800;
+
+			@media #{$phone} {
+				top: 160px;
+				margin-left: -80px;
+				font-size: 26px;
+			}
+		}
+		> .ex1 {
+			position: absolute;
+			left: 50%;
+			top: 240px;
+			margin-left: -190px;
+			color: #888;
+			line-height: 24px;
+			text-align: center;
+			font-weight: 800;
+			font-size: 18px;
+
+			@media #{$phone} {
+				top: 210px;
+				margin-left: -140px;
+				font-size: 13px;
+			}
+		}
+		> .ex2 {
+			position: absolute;
+			left: 50%;
+			top: 340px;
+			margin-left: -260px;
+			color: #beabd4;
+			line-height: 24px;
+			font-weight: 600;
+			font-size: 15px;
+
+			@media #{$phone} {
+				top: 310px;
+				margin-left: -190px;
+				font-size: 11px;
+			}
+		}
+		> .option {
+			position: absolute;
+			left: 50%;
+			top: 450px;
+			width: 212px;
+			height: 47px;
+			margin-left: -100px;
+			text-indent: -9999px;
+			background-image: url(./../images/tac-2.png);
+
+			@media #{$phone} {
+				top: 425px;
+				width: 190px;
+				height: 42px;
+				margin-left: -90px;
+				background-size: cover;
+			}
+		}
+		> p.hr3 {
+			position: absolute;
+			left: 50%;
+			top: 460px;
+			width: 498px;
+			margin-left: -598px;
+			text-indent: -9999px;
+			border-bottom: 1px solid #5f0080;
+
+			@media #{$phone} {
+				top: 435px;
+				margin-left: -588px;
+			}
+		}
+		> p.hr4 {
+			position: absolute;
+			left: 50%;
+			top: 460px;
+			width: 489px;
+			margin-left: 112px;
+			text-indent: -9999px;
+			border-bottom: 1px solid #5f0080;
+
+			@media #{$phone} {
+				top: 435px;
+				margin-left: 100px;
+			}
+		}
+
+		> div {
+			> .meat {
+				position: absolute;
+				left: 50%;
+				top: 550px;
+				width: 316px;
+				height: 398px;
+				margin-left: -420px;
+				text-indent: -9999px;
+				cursor: pointer;
+				background-image: url(./../images/pic-1.png);
+
+				@media #{$phone} {
+					margin-left: -150px;
+				}
+			}
+			> .meatex {
+				position: absolute;
+				left: 50%;
+				top: 700px;
+				margin-left: -50px;
+				color: #454249;
+				font-weight: 800;
+				font-size: 26px;
+				cursor: pointer;
+
+				@media #{$phone} {
+					top: 980px;
+					margin-left: -155px;
+					font-size: 19px;
+				}
+			}
+			> .prepri1 {
+				position: absolute;
+				left: 50%;
+				top: 770px;
+				color: #888;
+				font-weight: 800;
+				font-size: 30px;
+				cursor: pointer;
+
+				@media #{$phone} {
+					top: 1020px;
+					margin-left: -90px;
+					font-size: 19px;
+				}
+			}
+			> .salepri1 {
+				position: absolute;
+				left: 50%;
+				top: 770px;
+				font-weight: 800;
+				font-size: 30px;
+				margin-left: 180px;
+				color: #5f0080;
+				cursor: pointer;
+
+				@media #{$phone} {
+					top: 1020px;
+					margin-left: 35px;
+					font-size: 19px;
+				}
+			}
+			> span.one {
+				position: absolute;
+				left: 50%;
+				top: 775px;
+				margin-left: -25px;
+				display: block;
+				width: 160px;
+				height: 13px;
+				text-indent: -9999px;
+				cursor: pointer;
+				background-image: url(./../images/outline.png);
+
+				@media #{$phone} {
+					top: 1022px;
+					width: 120px;
+					height: 9px;
+					margin-left: -115px;
+					background-size: cover;
+				}
+			}
+
+			> .trevi {
+				position: absolute;
+				left: 50%;
+				top: 1100px;
+				width: 316px;
+				height: 398px;
+				margin-left: 50px;
+				text-indent: -9999px;
+				cursor: pointer;
+				background-image: url(./../images/pic-2.png);
+
+				@media #{$phone} {
+					margin-left: -150px;
+				}
+			}
+			> .treviex {
+				position: absolute;
+				left: 50%;
+				top: 1260px;
+				margin-left: -450px;
+				color: #454249;
+				font-weight: 800;
+				font-size: 26px;
+				cursor: pointer;
+
+				@media #{$phone} {
+					top: 1535px;
+					margin-left: -153px;
+					font-size: 19px;
+				}
+			}
+			> .prepri2 {
+				position: absolute;
+				left: 50%;
+				top: 1330px;
+				margin-left: -400px;
+				color: #888;
+				font-weight: 800;
+				font-size: 30px;
+				cursor: pointer;
+
+				@media #{$phone} {
+					top: 1575px;
+					margin-left: -90px;
+					font-size: 19px;
+				}
+			}
+			> .salepri2 {
+				position: absolute;
+				left: 50%;
+				top: 1330px;
+				margin-left: -190px;
+				font-weight: 800;
+				font-size: 30px;
+				color: #5f0080;
+				cursor: pointer;
+
+				@media #{$phone} {
+					top: 1575px;
+					margin-left: 35px;
+					font-size: 19px;
+				}
+			}
+			> span.two {
+				position: absolute;
+				left: 50%;
+				top: 1335px;
+				margin-left: -400px;
+				display: block;
+				width: 160px;
+				height: 13px;
+				text-indent: -9999px;
+				cursor: pointer;
+				background-image: url(./../images/outline.png);
+
+				@media #{$phone} {
+					top: 1577px;
+					width: 120px;
+					height: 9px;
+					margin-left: -111px;
+					background-size: cover;
+				}
+			}
+
+			> .kf365 {
+				position: absolute;
+				left: 50%;
+				top: 1650px;
+				width: 316px;
+				height: 398px;
+				margin-left: -420px;
+				text-indent: -9999px;
+				cursor: pointer;
+				background-image: url(./../images/pic-3.png);
+
+				@media #{$phone} {
+					margin-left: -150px;
+				}
+			}
+			> .kf365ex {
+				position: absolute;
+				left: 50%;
+				top: 1800px;
+				margin-left: -50px;
+				color: #454249;
+				font-weight: 800;
+				font-size: 26px;
+				cursor: pointer;
+
+				@media #{$phone} {
+					top: 2080px;
+					margin-left: -150px;
+					font-size: 19px;
+				}
+			}
+			> .prepri3 {
+				position: absolute;
+				left: 50%;
+				top: 1870px;
+				color: #888;
+				font-weight: 800;
+				font-size: 30px;
+				cursor: pointer;
+
+				@media #{$phone} {
+					top: 2120px;
+					margin-left: -90px;
+					font-size: 19px;
+				}
+			}
+			> .salepri3 {
+				position: absolute;
+				left: 50%;
+				top: 1870px;
+				font-weight: 800;
+				font-size: 30px;
+				margin-left: 180px;
+				color: #5f0080;
+				cursor: pointer;
+
+				@media #{$phone} {
+					top: 2120px;
+					margin-left: 35px;
+					font-size: 19px;
+				}
+			}
+			> span.three {
+				position: absolute;
+				left: 50%;
+				top: 1875px;
+				margin-left: -25px;
+				display: block;
+				width: 160px;
+				height: 13px;
+				text-indent: -9999px;
+				cursor: pointer;
+				background-image: url(./../images/outline.png);
+
+				@media #{$phone} {
+					top: 2122px;
+					width: 120px;
+					height: 9px;
+					margin-left: -115px;
+					background-size: cover;
+				}
+			}
+		} //end of div
+	} //end of section.benefit1
+
+	> .benefit2 {
+		position: relative;
+		> h2 {
+			position: absolute;
+			left: 50%;
+			top: 1200px;
+			width: 104px;
+			height: 50px;
+			margin-left: -55px;
+			text-indent: -9999px;
+			background-image: url(./../images/nom-2.png);
+		} //end of .h2
+
+		> h3 {
+			position: absolute;
+			left: 50%;
+			top: 1300px;
+			margin-left: -166px;
+			color: #5f0080;
+			font-weight: 800;
+			font-size: 34px;
+
+			@media #{$phone} {
+				font-size: 26px;
+				margin-left: -125px;
+			}
+		}
+		> .ex3 {
+			position: absolute;
+			left: 50%;
+			top: 1370px;
+			margin-left: -290px;
+			color: #888;
+			font-size: 18px;
+			font-weight: 800;
+			line-height: 24px;
+			text-align: center;
+
+			@media #{$phone} {
+				font-size: 12px;
+				margin-left: -205px;
+			}
+		}
+		> .truck {
+			position: absolute;
+			left: 50%;
+			top: 1450px;
+			margin-left: -260px;
+			width: 525px;
+			height: 444px;
+			text-indent: -9999px;
+			background-image: url(./../images/car.png);
+
+			@media #{$phone} {
+				width: 410px;
+				height: 347px;
+				margin-left: -200px;
+				background-size: cover;
+			}
+		}
+		> .ex4 {
+			position: absolute;
+			left: 50%;
+			top: 1900px;
+			margin-left: -115px;
+			color: #beabd4;
+			line-height: 24px;
+			text-align: center;
+			font-weight: 600;
+			font-size: 15px;
+
+			@media #{$phone} {
+				top: 1840px;
+				margin-left: -90px;
+				font-size: 12px;
+			}
+		}
+	} //end of section.benefit2
+
+	> .benefit3 {
+		position: relative;
+		top: 2000px;
+		height: 790px;
+		background-color: #f6f6f6;
+		@media #{$phone} {
+			height: 1050px;
+		}
+		> h2 {
+			position: absolute;
+			left: 50%;
+			top: 80px;
+			width: 104px;
+			height: 50px;
+			margin-left: -55px;
+			text-indent: -9999px;
+			background-image: url(./../images/nom-3.png);
+		}
+		> h3 {
+			position: absolute;
+			left: 50%;
+			top: 200px;
+			margin-left: -240px;
+			color: #5f0080;
+			font-weight: 800;
+			font-size: 34px;
+
+			@media #{$phone} {
+				left: 320px;
+				font-size: 27px;
+			}
+		}
+		> .ex5 {
+			position: absolute;
+			left: 50%;
+			top: 270px;
+			margin-left: -240px;
+			color: #888;
+			font-size: 18px;
+			font-weight: 800;
+			line-height: 24px;
+			text-align: center;
+
+			@media #{$phone} {
+				left: 310px;
+				font-size: 14px;
+			}
+		}
+		> .perc {
+			position: absolute;
+			left: 50%;
+			top: 370px;
+			margin-left: -480px;
+			width: 454px;
+			height: 264px;
+			text-indent: -9999px;
+			background-image: url(./../images/cou-1.png);
+			background-size: cover;
+
+			@media #{$phone} {
+				left: 570px;
+				width: 370px;
+				height: 214px;
+			}
+		}
+		> .free {
+			position: absolute;
+			left: 50%;
+			top: 370px;
+			margin-left: 30px;
+			width: 454px;
+			height: 264px;
+			text-indent: -9999px;
+			background-image: url(./../images/cou-2.png);
+			background-size: cover;
+
+			@media #{$phone} {
+				left: 60px;
+				top: 630px;
+				width: 370px;
+				height: 214px;
+			}
+		}
+		> .ex6 {
+			position: absolute;
+			left: 50%;
+			top: 660px;
+			margin-left: -160px;
+			color: #beabd4;
+			line-height: 24px;
+			text-align: center;
+			font-weight: 600;
+			font-size: 15px;
+
+			@media #{$phone} {
+				left: 260px;
+				top: 900px;
+				font-size: 13px;
+			}
+		}
+	} //end of section.benefit3
+
+	> .benefit4 {
+		position: relative;
+		top: 2000px;
+		height: 790px;
+		background-color: #fff;
+		> h2 {
+			position: absolute;
+			left: 50%;
+			top: 80px;
+			width: 104px;
+			height: 50px;
+			margin-left: -55px;
+			text-indent: -9999px;
+			background-image: url(./../images/nom-4.png);
+		}
+		> h3 {
+			position: absolute;
+			left: 50%;
+			top: 200px;
+			margin-left: -220px;
+			color: #5f0080;
+			font-weight: 800;
+			font-size: 34px;
+
+			@media #{$phone} {
+				left: 310px;
+				font-size: 27px;
+			}
+		}
+		> .ex7 {
+			position: absolute;
+			left: 50%;
+			top: 270px;
+			margin-left: -300px;
+			color: #888;
+			font-size: 18px;
+			font-weight: 800;
+			line-height: 24px;
+			text-align: center;
+
+			@media #{$phone} {
+				left: 317px;
+				font-size: 14px;
+			}
+		}
+		> .won {
+			position: absolute;
+			left: 50%;
+			top: 370px;
+			margin-left: -220px;
+			width: 454px;
+			height: 264px;
+			text-indent: -9999px;
+			background-image: url(./../images/cou-3.png);
+			background-size: cover;
+
+			@media #{$phone} {
+				left: 310px;
+				top: 380px;
+				width: 370px;
+				height: 214px;
+			}
+		}
+		> .ex8 {
+			position: absolute;
+			left: 50%;
+			top: 700px;
+			margin-left: -240px;
+			color: #beabd4;
+			text-align: center;
+			font-weight: 600;
+			font-size: 15px;
+
+			@media #{$phone} {
+				left: 280px;
+				top: 680px;
+				font-size: 13px;
+			}
+		}
+	} //end of section.benefit4
+
+	> section.best {
+		position: relative;
+		top: 2000px;
+		height: 810px;
+		background-color: #f6f6f6;
+		@media #{$phone} {
+			height: 1300px;
+		}
+		> h2 {
+			position: absolute;
+			left: 50%;
+			top: 100px;
+			margin-left: -330px;
+			color: #5f0080;
+			font-weight: 800;
+			font-size: 34px;
+
+			@media #{$phone} {
+				left: 440px;
+				top: 70px;
+				width: 330px;
+				font-size: 24px;
+				text-align: center;
+			}
+		}
+		> ul.food {
+			display: flex;
+			justify-content: space-evenly;
+			text-indent: -9999px;
+
+			@media #{$phone} {
+				position: absolute;
+				width: 450px;
+				height: 500px;
+			}
+			> li {
+				margin-top: 200px;
+				@media #{$phone} {
+					position: absolute;
+				}
+			}
+			> li:first-child {
+				width: 249px;
+				background-image: url(./../images/pic-4.png);
+				@media #{$phone} {
+					left: 50px;
+					width: 209px;
+					height: 279px;
+					background-size: cover;
+				}
+				> a {
+					display: block;
+					height: 319px;
+					@media #{$phone} {
+						height: 279px;
+					}
+					&:hover {
+						outline: 3px solid #5f0080;
+						outline-offset: -3px;
+					}
+				}
+			}
+			> li:nth-child(2) {
+				width: 248px;
+				background-image: url(./../images/pic-5.png);
+				@media #{$phone} {
+					left: 280px;
+					width: 209px;
+					height: 279px;
+					background-size: cover;
+				}
+				> a {
+					display: block;
+					height: 319px;
+					@media #{$phone} {
+						height: 279px;
+					}
+					&:hover {
+						outline: 3px solid #5f0080;
+						outline-offset: -3px;
+					}
+				}
+			}
+			> li:nth-child(3) {
+				width: 249px;
+				background-image: url(./../images/pic-6.png);
+				@media #{$phone} {
+					left: 50px;
+					top: 380px;
+					width: 209px;
+					height: 279px;
+					background-size: cover;
+				}
+				> a {
+					display: block;
+					height: 319px;
+					@media #{$phone} {
+						height: 279px;
+					}
+					&:hover {
+						outline: 3px solid #5f0080;
+						outline-offset: -3px;
+					}
+				}
+			}
+			> li:last-child {
+				width: 248px;
+				background-image: url(./../images/pic-7.png);
+				@media #{$phone} {
+					left: 280px;
+					top: 380px;
+					width: 209px;
+					height: 279px;
+					background-size: cover;
+				}
+				> a {
+					display: block;
+					height: 319px;
+					@media #{$phone} {
+						height: 279px;
+					}
+					&:hover {
+						outline: 3px solid #5f0080;
+						outline-offset: -3px;
+					}
+				}
+			}
+		} //end of ul.food
+
+		> ul.foodex {
+			display: flex;
+			justify-content: space-around;
+			margin-top: 40px;
+			> li {
+				font-size: 20px;
+				text-align: center;
+				@media #{$phone} {
+					position: absolute;
+					font-size: 17px;
+				}
+				> a {
+					color: #888;
+					font-weight: 800;
+				}
+				&:nth-child(1) {
+					@media #{$phone} {
+						left: 60px;
+						top: 500px;
+					}
+				}
+				&:nth-child(2) {
+					@media #{$phone} {
+						left: 310px;
+						top: 500px;
+					}
+				}
+				&:nth-child(3) {
+					@media #{$phone} {
+						left: 85px;
+						top: 880px;
+					}
+				}
+				&:nth-child(4) {
+					@media #{$phone} {
+						left: 300px;
+						top: 880px;
+					}
+				}
+			}
+		} //end of ul.foodex
+		> div {
+			display: flex;
+			justify-content: space-evenly;
+			margin-top: 90px;
+			> p {
+				&:nth-child(1) {
+					position: absolute;
+					left: 200px;
+					width: 381px;
+					background-image: url(./../images/btn-2.png);
+
+					@media #{$phone} {
+						position: absolute;
+						left: 125px;
+						top: 1050px;
+						width: 292px;
+						height: 64px;
+						background-size: cover;
+					}
+					> a {
+						display: block;
+						color: #fff;
+						height: 84px;
+						line-height: 84px;
+						font-weight: 800;
+						font-size: 24px;
+						text-align: center;
+						text-indent: -50px;
+
+						@media #{$phone} {
+							height: 64px;
+							line-height: 64px;
+							font-size: 18px;
+						}
+						&:hover {
+							color: #5f0080;
+							background-image: url(./../images/btn-1.png);
+
+							@media #{$phone} {
+								width: 292px;
+								height: 64px;
+								background-size: cover;
+							}
+						}
+					}
+				}
+				&:nth-child(2) {
+					position: absolute;
+					left: 630px;
+					width: 381px;
+					height: 84px;
+					background-image: url(./../images/btn-2.png);
+
+					@media #{$phone} {
+						left: 125px;
+						top: 1130px;
+						width: 292px;
+						height: 64px;
+						background-size: cover;
+					}
+					> a {
+						display: block;
+						color: #fff;
+						height: 84px;
+						line-height: 84px;
+						font-weight: 800;
+						font-size: 24px;
+						text-align: center;
+						text-indent: -50px;
+
+						@media #{$phone} {
+							height: 64px;
+							line-height: 64px;
+							font-size: 19px;
+						}
+						&:hover {
+							color: #5f0080;
+							background-image: url(./../images/btn-1.png);
+
+							@media #{$phone} {
+								width: 292px;
+								height: 64px;
+								background-size: cover;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	> footer {
+		position: relative;
+		top: 2000px;
+		height: 550px;
+		display: flex;
+		background-color: #fff;
+		> h2 {
+			position: absolute;
+			top: 80px;
+			left: 30px;
+			font-weight: 800;
+			font-size: 24px;
+		}
+
+		> div {
+			display: flex;
+			> ol.inquiry {
+				> li {
+					position: absolute;
+					left: 30px;
+					color: #454249;
+					text-align: center;
+					font-weight: 800;
+					font-size: 15px;
+					&:first-child {
+						position: absolute;
+						top: 150px;
+						border: none;
+						font-weight: 800;
+						font-size: 30px;
+					}
+					&:nth-child(2) {
+						width: 170px;
+						position: absolute;
+						top: 220px;
+						border: 1px solid #888;
+					}
+					&:nth-child(3) {
+						width: 170px;
+						position: absolute;
+						top: 300px;
+						border: 1px solid #888;
+					}
+					> a {
+						display: block;
+						height: 40px;
+						line-height: 40px;
+					}
+				}
+			} //end of ol.inquiry
+
+			> ol.time {
+				> li {
+					position: absolute;
+					left: 215px;
+					top: 150px;
+					text-align: left;
+					line-height: 20px;
+					font-weight: 800;
+					font-size: 14px;
+
+					&:nth-child(2) {
+						top: 220px;
+					}
+					&:nth-child(3) {
+						top: 300px;
+					}
+					> span {
+						display: block;
+						color: #888;
+					}
+				}
+			} //end of ol.time
+		} //end of div
+
+		> ul.issues {
+			position: absolute;
+			top: 150px;
+			left: 635px;
+			display: flex;
+			font-weight: 800;
+			font-size: 14px;
+			> li {
+				padding-left: 15px;
+				&:first-child {
+					padding-left: 0;
+				}
+				&:hover > a {
+					color: #5f0080;
+				}
+			}
+		}
+		> p {
+			position: absolute;
+			top: 200px;
+			left: 635px;
+			color: #adaaaa;
+			line-height: 18px;
+			font-weight: 600;
+			font-size: 12px;
+			> a {
+				color: #5f0080;
+			}
+			> span {
+				display: block;
+				margin-top: 15px;
+			}
+		}
+		> ul.sns {
+			position: absolute;
+			top: 350px;
+			left: 640px;
+			display: flex;
+			> li {
+				padding-right: 5px;
+				text-indent: -9999px;
+				background-repeat: no-repeat;
+
+				&:nth-child(1) {
+					width: 29px;
+					height: 29px;
+					background-image: url(./../images/ft-1.png);
+				}
+				&:nth-child(2) {
+					width: 30px;
+					height: 29px;
+					background-image: url(./../images/ft-2.png);
+				}
+				&:nth-child(3) {
+					width: 29px;
+					height: 29px;
+					background-image: url(./../images/ft-3.png);
+				}
+				&:nth-child(4) {
+					width: 28px;
+					height: 29px;
+					background-image: url(./../images/ft-4.png);
+				}
+				&:nth-child(5) {
+					width: 28px;
+					height: 29px;
+					background-image: url(./../images/ft-5.png);
+				}
+				> a {
+					display: block;
+					height: 29px;
+				}
+			}
+		}
+		> ol.bottom1 {
+			position: absolute;
+			top: 400px;
+			display: flex;
+			width: 100%;
+			padding-top: 10px;
+			border-top: 1px solid #adaaaa;
+
+			> li {
+				position: absolute;
+				text-indent: -9999px;
+				&:nth-child(1) {
+					left: 10px;
+					width: 38px;
+					height: 37px;
+					background-image: url(./../images/fter-1.png);
+				}
+				&:nth-child(2) {
+					left: 340px;
+					width: 37px;
+					height: 36px;
+					background-image: url(./../images/fter-2.png);
+				}
+				&:nth-child(3) {
+					left: 673px;
+					width: 106px;
+					height: 35px;
+					background-image: url(./../images/fter-3.png);
+				}
+				> a {
+					display: block;
+					height: 37px;
+				}
+			}
+		}
+		> ol.bottom2 {
+			position: absolute;
+			top: 410px;
+			display: flex;
+			width: 100%;
+
+			> li {
+				position: absolute;
+				color: #888;
+				line-height: 19px;
+				font-weight: 600;
+				&:nth-child(1) {
+					left: 50px;
+				}
+				&:nth-child(2) {
+					left: 382px;
+				}
+				&:nth-child(3) {
+					left: 785px;
+				}
+			}
+		}
+	} //end of footer
+}
