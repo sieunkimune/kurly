@@ -202,6 +202,7 @@ $phone: 'screen and (max-width:640px)';
 				height: 42px;
 				margin-left: -90px;
 				background-size: cover;
+				z-index: 1;
 			}
 		}
 		> p.hr3 {
@@ -214,8 +215,9 @@ $phone: 'screen and (max-width:640px)';
 			border-bottom: 1px solid #5f0080;
 
 			@media #{$phone} {
+				left: 598px;
 				top: 435px;
-				margin-left: -588px;
+				width: 100%;
 			}
 		}
 		> p.hr4 {
@@ -228,8 +230,7 @@ $phone: 'screen and (max-width:640px)';
 			border-bottom: 1px solid #5f0080;
 
 			@media #{$phone} {
-				top: 435px;
-				margin-left: 100px;
+				display: none;
 			}
 		}
 
@@ -884,6 +885,7 @@ $phone: 'screen and (max-width:640px)';
 			> li {
 				font-size: 20px;
 				text-align: center;
+
 				@media #{$phone} {
 					position: absolute;
 					font-size: 17px;
@@ -1015,12 +1017,22 @@ $phone: 'screen and (max-width:640px)';
 		height: 550px;
 		display: flex;
 		background-color: #fff;
+
+		@media #{$phone} {
+			height: 730px;
+		}
 		> h2 {
 			position: absolute;
 			top: 80px;
 			left: 30px;
 			font-weight: 800;
 			font-size: 24px;
+
+			@media #{$phone} {
+				left: 10px;
+				top: 30px;
+				font-size: 16px;
+			}
 		}
 
 		> div {
@@ -1033,29 +1045,54 @@ $phone: 'screen and (max-width:640px)';
 					text-align: center;
 					font-weight: 800;
 					font-size: 15px;
+
+					@media #{$phone} {
+						left: 10px;
+						font-size: 12px;
+					}
 					&:first-child {
 						position: absolute;
 						top: 150px;
 						border: none;
 						font-weight: 800;
 						font-size: 30px;
+
+						@media #{$phone} {
+							top: 80px;
+							font-size: 20px;
+						}
 					}
 					&:nth-child(2) {
 						width: 170px;
 						position: absolute;
 						top: 220px;
 						border: 1px solid #888;
+
+						@media #{$phone} {
+							top: 180px;
+							width: 120px;
+						}
 					}
 					&:nth-child(3) {
 						width: 170px;
 						position: absolute;
 						top: 300px;
 						border: 1px solid #888;
+
+						@media #{$phone} {
+							top: 125px;
+							width: 120px;
+						}
 					}
 					> a {
 						display: block;
 						height: 40px;
 						line-height: 40px;
+
+						@media #{$phone} {
+							height: 30px;
+							line-height: 30px;
+						}
 					}
 				}
 			} //end of ol.inquiry
@@ -1070,11 +1107,24 @@ $phone: 'screen and (max-width:640px)';
 					font-weight: 800;
 					font-size: 14px;
 
+					@media #{$phone} {
+						left: 150px;
+						top: 73px;
+						font-size: 12px;
+					}
 					&:nth-child(2) {
 						top: 220px;
+
+						@media #{$phone} {
+							top: 123px;
+						}
 					}
 					&:nth-child(3) {
 						top: 300px;
+
+						@media #{$phone} {
+							top: 177px;
+						}
 					}
 					> span {
 						display: block;
@@ -1091,6 +1141,12 @@ $phone: 'screen and (max-width:640px)';
 			display: flex;
 			font-weight: 800;
 			font-size: 14px;
+
+			@media #{$phone} {
+				left: 10px;
+				top: 250px;
+				font-size: 12px;
+			}
 			> li {
 				padding-left: 15px;
 				&:first-child {
@@ -1109,6 +1165,12 @@ $phone: 'screen and (max-width:640px)';
 			line-height: 18px;
 			font-weight: 600;
 			font-size: 12px;
+
+			@media #{$phone} {
+				left: 10px;
+				top: 280px;
+				font-size: 11px;
+			}
 			> a {
 				color: #5f0080;
 			}
@@ -1122,6 +1184,11 @@ $phone: 'screen and (max-width:640px)';
 			top: 350px;
 			left: 640px;
 			display: flex;
+
+			@media #{$phone} {
+				left: 10px;
+				top: 444px;
+			}
 			> li {
 				padding-right: 5px;
 				text-indent: -9999px;
@@ -1166,6 +1233,11 @@ $phone: 'screen and (max-width:640px)';
 			padding-top: 10px;
 			border-top: 1px solid #adaaaa;
 
+			@media #{$phone} {
+				top: 500px;
+				padding-top: 25px;
+			}
+
 			> li {
 				position: absolute;
 				text-indent: -9999px;
@@ -1174,18 +1246,30 @@ $phone: 'screen and (max-width:640px)';
 					width: 38px;
 					height: 37px;
 					background-image: url(./../images/fter-1.png);
+
+					@media #{$phone} {
+						left: 10px;
+					}
 				}
 				&:nth-child(2) {
 					left: 340px;
 					width: 37px;
 					height: 36px;
 					background-image: url(./../images/fter-2.png);
+
+					@media #{$phone} {
+						left: 200px;
+					}
 				}
 				&:nth-child(3) {
 					left: 673px;
 					width: 106px;
 					height: 35px;
 					background-image: url(./../images/fter-3.png);
+
+					@media #{$phone} {
+						left: 370px;
+					}
 				}
 				> a {
 					display: block;
@@ -1199,19 +1283,45 @@ $phone: 'screen and (max-width:640px)';
 			display: flex;
 			width: 100%;
 
+			@media #{$phone} {
+				top: 570px;
+			}
 			> li {
 				position: absolute;
 				color: #888;
 				line-height: 19px;
 				font-weight: 600;
+
+				@media #{$phone} {
+					line-height: 15px;
+					font-size: 10px;
+				}
 				&:nth-child(1) {
 					left: 50px;
+
+					@media #{$phone} {
+						left: 10px;
+						top: 15px;
+						width: 150px;
+					}
 				}
 				&:nth-child(2) {
 					left: 382px;
+
+					@media #{$phone} {
+						left: 190px;
+						top: 15px;
+						width: 150px;
+					}
 				}
 				&:nth-child(3) {
 					left: 785px;
+
+					@media #{$phone} {
+						left: 370px;
+						top: 13px;
+						width: 150px;
+					}
 				}
 			}
 		}
