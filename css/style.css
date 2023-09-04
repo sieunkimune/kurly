@@ -339,7 +339,7 @@
   top: 1100px;
   width: 316px;
   height: 398px;
-  margin-left: 50px;
+  margin-left: 100px;
   text-indent: -9999px;
   cursor: pointer;
   background-image: url(./../images/pic-2.png);
@@ -353,7 +353,7 @@
   position: absolute;
   left: 50%;
   top: 1260px;
-  margin-left: -450px;
+  margin-left: -400px;
   color: #454249;
   font-weight: 800;
   font-size: 26px;
@@ -370,7 +370,7 @@
   position: absolute;
   left: 50%;
   top: 1330px;
-  margin-left: -400px;
+  margin-left: -360px;
   color: #888;
   font-weight: 800;
   font-size: 30px;
@@ -387,7 +387,7 @@
   position: absolute;
   left: 50%;
   top: 1330px;
-  margin-left: -190px;
+  margin-left: -170px;
   font-weight: 800;
   font-size: 30px;
   color: #5f0080;
@@ -404,7 +404,7 @@
   position: absolute;
   left: 50%;
   top: 1335px;
-  margin-left: -400px;
+  margin-left: -370px;
   display: block;
   width: 160px;
   height: 13px;
@@ -747,7 +747,8 @@
 }
 @media screen and (max-width:640px) {
   #wrap > .benefit4 > .ex7 {
-    left: 317px;
+    left: 50%;
+    margin-left: -220px;
     font-size: 13px;
   }
 }
@@ -768,7 +769,7 @@
     top: 380px;
     width: 370px;
     height: 214px;
-    margin-left: -160px;
+    margin-left: -170px;
   }
 }
 #wrap > .benefit4 > .ex8 {
