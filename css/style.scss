@@ -526,7 +526,7 @@ $phone: 'screen and (max-width:640px)';
 			text-align: center;
 
 			@media #{$phone} {
-				font-size: 12px;
+				font-size: 13px;
 				margin-left: -205px;
 			}
 		}
@@ -596,7 +596,7 @@ $phone: 'screen and (max-width:640px)';
 			@media #{$phone} {
 				left: 50%;
 				font-size: 27px;
-				margin-left: -185px;
+				margin-left: -188px;
 			}
 		}
 		> .ex5 {
@@ -612,8 +612,8 @@ $phone: 'screen and (max-width:640px)';
 
 			@media #{$phone} {
 				left: 50%;
-				font-size: 14px;
-				margin-left: -200px;
+				font-size: 13px;
+				margin-left: -188px;
 			}
 		}
 		> .perc {
@@ -716,7 +716,7 @@ $phone: 'screen and (max-width:640px)';
 
 			@media #{$phone} {
 				left: 317px;
-				font-size: 14px;
+				font-size: 13px;
 			}
 		}
 		> .won {
@@ -1333,4 +1333,4 @@ $phone: 'screen and (max-width:640px)';
 			}
 		}
 	} //end of footer
-}
+} //end of #wrap
