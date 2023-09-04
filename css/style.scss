@@ -594,8 +594,9 @@ $phone: 'screen and (max-width:640px)';
 			font-size: 34px;
 
 			@media #{$phone} {
-				left: 320px;
+				left: 50%;
 				font-size: 27px;
+				margin-left: -185px;
 			}
 		}
 		> .ex5 {
@@ -610,8 +611,9 @@ $phone: 'screen and (max-width:640px)';
 			text-align: center;
 
 			@media #{$phone} {
-				left: 310px;
+				left: 50%;
 				font-size: 14px;
+				margin-left: -200px;
 			}
 		}
 		> .perc {
@@ -626,9 +628,10 @@ $phone: 'screen and (max-width:640px)';
 			background-size: cover;
 
 			@media #{$phone} {
-				left: 570px;
+				left: 50%;
 				width: 370px;
 				height: 214px;
+				margin-left: -175px;
 			}
 		}
 		> .free {
@@ -643,10 +646,11 @@ $phone: 'screen and (max-width:640px)';
 			background-size: cover;
 
 			@media #{$phone} {
-				left: 60px;
+				left: 50%;
 				top: 630px;
 				width: 370px;
 				height: 214px;
+				margin-left: -175px;
 			}
 		}
 		> .ex6 {
@@ -661,8 +665,9 @@ $phone: 'screen and (max-width:640px)';
 			font-size: 15px;
 
 			@media #{$phone} {
-				left: 260px;
+				left: 50%;
 				top: 900px;
+				margin-left: -160px;
 				font-size: 13px;
 			}
 		}
@@ -693,7 +698,8 @@ $phone: 'screen and (max-width:640px)';
 			font-size: 34px;
 
 			@media #{$phone} {
-				left: 310px;
+				left: 50%;
+				margin-left: -170px;
 				font-size: 27px;
 			}
 		}
@@ -725,10 +731,11 @@ $phone: 'screen and (max-width:640px)';
 			background-size: cover;
 
 			@media #{$phone} {
-				left: 310px;
+				left: 50%;
 				top: 380px;
 				width: 370px;
 				height: 214px;
+				margin-left: -160px;
 			}
 		}
 		> .ex8 {

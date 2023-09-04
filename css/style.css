@@ -621,8 +621,9 @@
 }
 @media screen and (max-width:640px) {
   #wrap > .benefit3 > h3 {
-    left: 320px;
+    left: 50%;
     font-size: 27px;
+    margin-left: -185px;
   }
 }
 #wrap > .benefit3 > .ex5 {
@@ -638,8 +639,9 @@
 }
 @media screen and (max-width:640px) {
   #wrap > .benefit3 > .ex5 {
-    left: 310px;
+    left: 50%;
     font-size: 14px;
+    margin-left: -200px;
   }
 }
 #wrap > .benefit3 > .perc {
@@ -655,9 +657,10 @@
 }
 @media screen and (max-width:640px) {
   #wrap > .benefit3 > .perc {
-    left: 570px;
+    left: 50%;
     width: 370px;
     height: 214px;
+    margin-left: -175px;
   }
 }
 #wrap > .benefit3 > .free {
@@ -673,10 +676,11 @@
 }
 @media screen and (max-width:640px) {
   #wrap > .benefit3 > .free {
-    left: 60px;
+    left: 50%;
     top: 630px;
     width: 370px;
     height: 214px;
+    margin-left: -175px;
   }
 }
 #wrap > .benefit3 > .ex6 {
@@ -692,8 +696,9 @@
 }
 @media screen and (max-width:640px) {
   #wrap > .benefit3 > .ex6 {
-    left: 260px;
+    left: 50%;
     top: 900px;
+    margin-left: -160px;
     font-size: 13px;
   }
 }
@@ -724,7 +729,8 @@
 }
 @media screen and (max-width:640px) {
   #wrap > .benefit4 > h3 {
-    left: 310px;
+    left: 50%;
+    margin-left: -170px;
     font-size: 27px;
   }
 }
@@ -758,10 +764,11 @@
 }
 @media screen and (max-width:640px) {
   #wrap > .benefit4 > .won {
-    left: 310px;
+    left: 50%;
     top: 380px;
     width: 370px;
     height: 214px;
+    margin-left: -160px;
   }
 }
 #wrap > .benefit4 > .ex8 {
