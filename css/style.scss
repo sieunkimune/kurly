@@ -909,6 +909,7 @@ $phone: 'screen and (max-width:640px)';
 					}
 				}
 				&:nth-child(2) {
+					margin-right: 18px;
 					@media #{$phone} {
 						left: 290px;
 						top: 500px;

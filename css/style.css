@@ -965,6 +965,9 @@
     top: 500px;
   }
 }
+#wrap > section.best > ul.foodex > li:nth-child(2) {
+  margin-right: 18px;
+}
 @media screen and (max-width:640px) {
   #wrap > section.best > ul.foodex > li:nth-child(2) {
     left: 290px;
