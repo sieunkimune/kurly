@@ -80,14 +80,14 @@
   position: absolute;
   left: 50%;
   top: 230px;
-  margin-left: -200px;
+  margin-left: -180px;
   color: #fff;
   font-weight: 800;
 }
 @media screen and (max-width:640px) {
   #wrap > header > h2 {
     top: 140px;
-    margin-left: -155px;
+    margin-left: -150px;
     font-size: 15px;
   }
 }
@@ -165,7 +165,7 @@
   position: absolute;
   left: 50%;
   top: 240px;
-  margin-left: -190px;
+  margin-left: -180px;
   color: #888;
   line-height: 24px;
   text-align: center;
@@ -175,7 +175,7 @@
 @media screen and (max-width:640px) {
   #wrap > section.benefit1 > .ex1 {
     top: 210px;
-    margin-left: -140px;
+    margin-left: -133px;
     font-size: 13px;
   }
 }
@@ -183,7 +183,7 @@
   position: absolute;
   left: 50%;
   top: 340px;
-  margin-left: -260px;
+  margin-left: -240px;
   color: #beabd4;
   line-height: 24px;
   font-weight: 600;
@@ -192,7 +192,7 @@
 @media screen and (max-width:640px) {
   #wrap > section.benefit1 > .ex2 {
     top: 310px;
-    margin-left: -190px;
+    margin-left: -180px;
     font-size: 11px;
   }
 }
@@ -362,7 +362,7 @@
 @media screen and (max-width:640px) {
   #wrap > section.benefit1 > div > .treviex {
     top: 1535px;
-    margin-left: -153px;
+    margin-left: -142px;
     font-size: 19px;
   }
 }
@@ -450,7 +450,7 @@
 @media screen and (max-width:640px) {
   #wrap > section.benefit1 > div > .kf365ex {
     top: 2080px;
-    margin-left: -150px;
+    margin-left: -140px;
     font-size: 19px;
   }
 }
@@ -540,7 +540,7 @@
   position: absolute;
   left: 50%;
   top: 1370px;
-  margin-left: -290px;
+  margin-left: -272px;
   color: #888;
   font-size: 18px;
   font-weight: 800;

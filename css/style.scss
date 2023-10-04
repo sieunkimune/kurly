@@ -77,13 +77,13 @@ $phone: 'screen and (max-width:640px)';
 			position: absolute;
 			left: 50%;
 			top: 230px;
-			margin-left: -200px;
+			margin-left: -180px;
 			color: #fff;
 			font-weight: 800;
 
 			@media #{$phone} {
 				top: 140px;
-				margin-left: -155px;
+				margin-left: -150px;
 				font-size: 15px;
 			}
 		} //end of h2
@@ -157,7 +157,7 @@ $phone: 'screen and (max-width:640px)';
 			position: absolute;
 			left: 50%;
 			top: 240px;
-			margin-left: -190px;
+			margin-left: -180px;
 			color: #888;
 			line-height: 24px;
 			text-align: center;
@@ -166,7 +166,7 @@ $phone: 'screen and (max-width:640px)';
 
 			@media #{$phone} {
 				top: 210px;
-				margin-left: -140px;
+				margin-left: -133px;
 				font-size: 13px;
 			}
 		}
@@ -174,7 +174,7 @@ $phone: 'screen and (max-width:640px)';
 			position: absolute;
 			left: 50%;
 			top: 340px;
-			margin-left: -260px;
+			margin-left: -240px;
 			color: #beabd4;
 			line-height: 24px;
 			font-weight: 600;
@@ -182,7 +182,7 @@ $phone: 'screen and (max-width:640px)';
 
 			@media #{$phone} {
 				top: 310px;
-				margin-left: -190px;
+				margin-left: -180px;
 				font-size: 11px;
 			}
 		}
@@ -345,7 +345,7 @@ $phone: 'screen and (max-width:640px)';
 
 				@media #{$phone} {
 					top: 1535px;
-					margin-left: -153px;
+					margin-left: -142px;
 					font-size: 19px;
 				}
 			}
@@ -429,7 +429,7 @@ $phone: 'screen and (max-width:640px)';
 
 				@media #{$phone} {
 					top: 2080px;
-					margin-left: -150px;
+					margin-left: -140px;
 					font-size: 19px;
 				}
 			}
@@ -518,7 +518,7 @@ $phone: 'screen and (max-width:640px)';
 			position: absolute;
 			left: 50%;
 			top: 1370px;
-			margin-left: -290px;
+			margin-left: -272px;
 			color: #888;
 			font-size: 18px;
 			font-weight: 800;
